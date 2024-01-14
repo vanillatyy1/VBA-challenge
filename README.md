@@ -15,16 +15,16 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 
 # Main Concept Tested:
 
-1) For Each and For Loops:  
+**1) For Each and For Loops:**  
 The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.  
 *<span style="color:green">'For Each loop,</span>*  
 <span style="color:green">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.</span>*
 
-3) Variables and Data Types:  
+**2) Variables and Data Types:**  
 Various variables like WorksheetName, Ticker_Symbol, Volume_Total, Open_Price, Close_Price, etc., are declared and used to store and manipulate data.  
 *'I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.*
 
-4) Conditional Statements:  
+**3) Conditional Statements:**  
 Conditional statements (If...Then...Else) are used to check if the current row represents the end of a ticker symbol group.
 
 # Final Screenshots:
