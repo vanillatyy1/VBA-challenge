@@ -16,13 +16,13 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 # Main Concept Tested:
 
 1) For Each and For Loops: 
-The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.
-  *' For Each loop,
+The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.  
+  *' For Each loop,  
   *' Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.
 
 2) Variables and Data Types:
 Various variables like WorksheetName, Ticker_Symbol, Volume_Total, Open_Price, Close_Price, etc., are declared and used to store and manipulate data.
-  *' I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.
+  *' I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.  
 
 3) Conditional Statements:
 Conditional statements (If...Then...Else) are used to check if the current row represents the end of a ticker symbol group.
@@ -30,7 +30,7 @@ Conditional statements (If...Then...Else) are used to check if the current row r
 # Final Screenshots:
 ![Assignment_Screenshot1](https://github.com/vanillatyy1/VBA-challenge/blob/main/Stock_Ticker_Screenshot_1.jpg)
 ![Assignment_Screenshot2](https://github.com/vanillatyy1/VBA-challenge/blob/main/Stock_Ticker_Screenshot_2.jpg)
-
+  
 Note that the arrow was not a requirement for the VBA script; it was included in response to the Class Instruction screenshot for alignment purposes.
 
 # Some good-to-remember-for-the-future Technique Used:
@@ -40,12 +40,12 @@ i) LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 
 ii) Website for color guide
 
-See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm. 
-  *'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.
-  *'Red
-  Interior.ColorIndex = 3
-  *'Green
-  Interior.ColorIndex = 4, as in
+See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm.  
+  *'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.  
+  *'Red  
+  Interior.ColorIndex = 3  
+  *'Green  
+  Interior.ColorIndex = 4, as in  
 
     ' --------------------------------------------
     ' CONDITIONAL FORMATTING
