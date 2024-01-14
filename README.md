@@ -39,7 +39,7 @@ LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 
 *'Line of code to find the last non-empty row in a specific column of the worksheet in Excel VBA.*
 
-**ii) Website for color guide**
+**ii) Website for color guide**  
 
 See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm.  
 *'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.*  
