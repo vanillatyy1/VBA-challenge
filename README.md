@@ -41,7 +41,7 @@ i) LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 ii) Website for color guide
 
 See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm.  
-*'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.*
+*'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.*  
 *'Red*  
   Interior.ColorIndex = 3  
 *'Green*  
