@@ -21,7 +21,7 @@ The script uses a For Each loop to iterate through each worksheet (ws), and For 
 *<span style="color:green">'For Each loop,</span>*  
 <span style="color:green">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.</span>*  
 
-*I also reviewed the 02-VBA-Scripting\2 class activity 06-Stu_Lotto-AdvancedForLoops to study how I could possibly populate the all the unique values of the ticker symbols.*
+*'I also reviewed the 02-VBA-Scripting\2 class activity 06-Stu_Lotto-AdvancedForLoops to study how I could possibly populate the all the unique values of the ticker symbols.*
 
 **2) Variables and Data Types:**  
 
