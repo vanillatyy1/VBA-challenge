@@ -63,7 +63,7 @@ See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm.
     ' Set the Cell Colors to Red
     ws.Range("J" & Summary_Table1_Row).Interior.ColorIndex = 3
 
-iii) Greatest Total Volume Value Format
+**iii) Greatest Total Volume Value Format**  
 To match the image provided by Class instruction, no change of Format is required to display 1.69E+12 into 1689539560106.
 If it became a requirement, then we would need to add the following to the script
 
