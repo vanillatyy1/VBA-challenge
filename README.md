@@ -16,15 +16,18 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 # Main Concept Tested:
 
 **1) For Each and For Loops:**  
+
 The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.  
 *<span style="color:green">'For Each loop,</span>*  
 <span style="color:green">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.</span>*
 
 **2) Variables and Data Types:**  
+
 Various variables like WorksheetName, Ticker_Symbol, Volume_Total, Open_Price, Close_Price, etc., are declared and used to store and manipulate data.  
 *'I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.*
 
 **3) Conditional Statements:**  
+
 Conditional statements (If...Then...Else) are used to check if the current row represents the end of a ticker symbol group.
 
 # Final Screenshots:
@@ -35,6 +38,7 @@ Conditional statements (If...Then...Else) are used to check if the current row r
 
 # Some good-to-remember-for-the-future Technique Used:
 **i) LastRow**  
+
 LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 
 *'Line of code to find the last non-empty row in a specific column of the worksheet in Excel VBA.*
@@ -64,6 +68,7 @@ See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm.
     ws.Range("J" & Summary_Table1_Row).Interior.ColorIndex = 3
 
 **iii) Greatest Total Volume Value Format**  
+
 To match the image provided by Class instruction, no change of Format is required to display 1.69E+12 into 1689539560106.
 If it became a requirement, then we would need to add the following to the script
 
