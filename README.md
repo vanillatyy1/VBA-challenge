@@ -18,7 +18,7 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 1) For Each and For Loops:  
 The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.  
 *<span style="color:green">'For Each loop,</span>*  
-<span style="color:lightgreen">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.*
+<span style="color:green">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.</span>*
 
 3) Variables and Data Types:  
 Various variables like WorksheetName, Ticker_Symbol, Volume_Total, Open_Price, Close_Price, etc., are declared and used to store and manipulate data.  
