@@ -17,12 +17,12 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 
 1) For Each and For Loops: 
 The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.
-' For Each loop,
-' Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.
+*' For Each loop,
+*' Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.
 
 2) Variables and Data Types:
 Various variables like WorksheetName, Ticker_Symbol, Volume_Total, Open_Price, Close_Price, etc., are declared and used to store and manipulate data.
-'I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.
+*' I have tried to Dim Volume_Total As Long, but has resulted in error message "overflow". Therefore, I change the data type to double, as a 'Double' can handle very large numbers, including those that might cause an overflow error with 'Long'.
 
 3) Conditional Statements:
 Conditional statements (If...Then...Else) are used to check if the current row represents the end of a ticker symbol group.
@@ -41,10 +41,10 @@ i) LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
 ii) Website for color guide
 
 See website for color guides: http://dmcritchie.mvps.org/excel/colors.htm. 
-'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.
-'Red
+*'I have learnt about this link during the 3rd VBA class, activity 02-Ins_Formatter.
+*'Red
 Interior.ColorIndex = 3
-'Green
+*'Green
 Interior.ColorIndex = 4, as in
 
     ' --------------------------------------------
