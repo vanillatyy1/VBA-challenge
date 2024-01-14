@@ -17,7 +17,7 @@ C) Take screenshot of the result, and the two screenshots should match the scree
 
 1) For Each and For Loops: 
 The script uses a For Each loop to iterate through each worksheet (ws), and For loop to iterate through rows within each worksheet.  
-*<font color="green">For Each loop,</font>*  
+*<font color="green">'For Each loop,</font>*  
 <span style="color:lightgreen">*'Reviewed [documentation](https://support.microsoft.com/en-us/help/142126/macro-to-loop-through-all-worksheets-in-a-workbook), and 03-VBA-Scripting class activity 07-Stu_Census_Pt1 to refresh my memory to loop through each worksheet.*
 
 3) Variables and Data Types:
